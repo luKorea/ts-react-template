@@ -8,4 +8,4 @@ import type { IDispatch, IRootState } from '@/store'
 // 设置state参数类型
 export const useAppSelector: TypedUseSelectorHook<IRootState> = useSelector
 export const useAppDispatch: () => IDispatch = useDispatch
-export const appShallowEqual = shallowEqual
+export const useAppShallowEqual = shallowEqual
